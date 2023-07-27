@@ -1,0 +1,305 @@
+
+
+
+
+body {
+    background-color: white;
+    margin-top:0%;
+
+
+}
+div.inner {
+    background-color: #DCDCDC;
+    width: 1500px;
+    margin: auto;
+    margin-top: 0px;
+
+}
+
+h1.title {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 300%;
+    background-color: rgb(213,245,227);
+    padding: 50px 50px;
+    margin-bottom: 20px;
+
+}
+.logo {
+    font-family: 'Arial';
+    font-size: 225%;
+    color: blue;
+    text-align: center;
+}
+
+
+.section {
+    font-family: "Roboto";
+    margin-left: 50px;
+    font-size: 175%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.breadcrumbs li {
+    display:inline;
+ }
+ .breadcrumbs a {
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    font-family: Merriweather;
+    font-size: 20px;
+ }
+ .breadcrumbs li+li::before {
+    padding:10px;
+    font-size: 25px;
+    content:">";
+ }
+
+ 
+ .breadcrumbs a:hover {
+    color:green;
+ }
+ .breadcrumbs a:active {
+    
+    color: red;
+ }
+
+ .button {
+    display: inline;
+ }
+button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    margin-left: 50px;
+    padding: 8px;
+    font-family:"Merriweather";
+    font-size: 20px;
+    background-color: #D3D3D3;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button:hover {
+    border: 2.5px solid black;
+    
+    
+}
+button:active {
+    background-color:#C0C0C0;
+    border: none;	
+    height: 50px;
+    width: 150px;
+    margin-bottom: 78px;
+
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+table {
+    margin: auto;
+    margin-top: 45px;
+    border: 1px solid black;
+}
+td {
+    font-family: "Roboto";
+}
+
+table.green {
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    
+    
+}
+thead  {
+    border-bottom: 1px dashed black;
+}
+
+thead tr .swatch1 {
+    width: 250px;
+    height: 100px;
+   background-color: rgb(213,245,227);
+   
+}
+thead tr .swatch2 {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(171, 235, 198);
+}
+thead tr .swatch3 {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(130, 224, 170);
+}
+tbody {
+    background-color: white;
+}
+td {
+    width: 250px;
+    height: 35px;
+    text-align:center;
+}
+
+table.blue {
+    border: 1px solid black;
+    margin-top: 50px;
+    
+    border-collapse: collapse;
+    position: relative;
+    
+    
+}
+
+
+thead tr .swatch4 {
+    width: 250px;
+    height: 100px;
+   background-color: rgb(100,149,237);
+   
+}
+thead tr .swatch5 {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(0,191,255);
+}
+thead tr .swatch6 {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(30,144,255);
+}
+tbody {
+    background-color: white;
+}
+td {
+    width: 250px;
+    height: 35px;
+    text-align:center;
+}
+
+
+
+table.gray {
+    border: 1px solid black;
+    margin-top: 50px;
+    
+    border-collapse: collapse;
+    position: relative;
+    
+    
+}
+
+
+thead tr .swatch7 {
+    width: 250px;
+    height: 100px;
+   background-color: rgb(192,192,192);
+   
+}
+thead tr .swatch8 {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(211,211,211);
+}
+thead tr .swatch9 {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(220,220,220);
+}
+tbody {
+    background-color: white;
+}
+td {
+    width: 250px;
+    height: 35px;
+    text-align:center;
+}
+
+h3 {
+    font-size: 25px;
+    margin:auto;
+    text-align:center;
+}
+.subheaderP {
+    background-color: #D5F5E3;
+    height: 40px;
+    padding: 5px;
+    width: 1200px;
+    
+}
+.subheaderN {
+    background-color: #008fff;
+    height: 40px;
+    padding: 5px;
+    width: 1200px;
+}
+.subheaderI {
+    background-color: #D3D3D3;
+    height: 40px;
+    padding: 5px;
+    width: 1200px;
+}
+p {
+    width: 1200px;
+    margin-bottom: 75px;
+    font-size: 20px;
+    margin-left: 150px;
+    
+}
+
+p.montserrat {
+    font-family: "Montserrat";
+    
+}
+
+p.merriweather {
+    font-family: "Merriweather";
+    font-size: 16px;
+}
+
+p.roboto {
+    font-family: "Roboto";
+}
+
+h3 {
+    font-family: "Roboto";
+    font-size:150%;
+    text-align:center;
+
+}
+.fontguide {
+    border-collapse: collapse;
+    margin:auto;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.fontguide thead {
+    background-color:rgb(171, 235, 198);
+    height: 50px;
+    
+
+}
+.fontguide tr {
+    height: 50px;
+}
+.fontguide td {
+    border: 1px solid black;
+}
+
+
+
+
+
+iframe {
+
+    margin: auto;
+}
